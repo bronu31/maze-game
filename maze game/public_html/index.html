@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+    <head>
+        <title>growing tree algorithm game</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="jquery-3.4.0.min.js" type="text/javascript"></script>
+        <link href="game.css" type="text/css" rel="stylesheet" />
+        <script src="mazegenerator.js" type="text/javascript"></script>
+        <script src="maze.js" type="text/javascript"></script>
+        <script src="game.js" type="text/javascript"></script>
+    </head>
+        <body>
+            <div id="wind"><!--Само окно в котором всё происходит-->
+                <div id="start"><button id="but">Старт</button></div><!--кнопка старта-->
+            <div id="options"><!--окно настроек-->
+                <input id="wd" type="number" required="" placeholder="ширина">
+                <input id="hi" type="number" required="" placeholder="высота">
+                <input id="lvl" type="number" name="level" placeholder="кол-во уровней" required=""/>
+                <p>Укажите цвет героя в лабиринте: </p>
+                <input class="colors" id="color" type="color" name="bg" value="#ff0000">
+                <p>Укажите цвет стен: </p>
+                <input class="colors" id="color2" type="color" name="bg" value="#00ff00">
+                <pre>                Управление стрелочками.
+        Размеры рекомендуется ставить не более, 
+                     чем 70 на 70</pre>
+                </div>
+                
+            </div>
+        </body>
+</html>

@@ -1,0 +1,93 @@
+body{
+    background-color: #0e4db2;
+}
+pre{
+    color: cyan;
+    margin: auto;
+}
+#wind{
+    border: red solid 5px;
+    width: 500px;
+    height: 500px;
+    margin-left: 36.5%;
+    margin-top: 10%;
+}
+#start{
+    margin-right:25%;
+    margin-left:25%;
+    margin-top:5%;
+    height: 50px;
+    border: cyan solid 5px;
+}
+#but{
+    width: 240px;
+    height: 50px;
+    border: cyan solid 5px;
+}
+#options{
+    border: turquoise double 10px;
+    width: 400px;
+    height: 380px;
+    margin-left: 50px;
+    
+}
+#but:hover{
+    background-color: darkorange;
+}
+#hi{
+    width: 50px;
+}
+#wd{
+   margin-left: 34%; 
+   width: 50px;
+}
+#lvl{
+    margin-left: 34%; 
+    width: 109px;
+}
+
+#class{
+    color: red;
+    border: blueviolet 5px dotted;
+    margin-left: 25%; 
+    margin-right: 30%;
+}
+.b{
+    width: 50px;
+    height: 50px;
+    border: solid red 2px;
+    position: absolute;
+}
+#area{
+    border: solid black 5px;
+    height: 500px;
+    width: 500px;
+    position: relative;
+}
+p{
+    color: cyan;
+    margin-left: 30%;
+}
+.colors{
+    margin-left: 42%; 
+}
+#maze {
+    border-collapse: collapse;
+}
+
+#maze td {
+    width: 20px;
+    height: 20px;
+}
+.enemy{
+    background-color: black;
+}
+.item{
+    background-color: white;
+}
+.end{
+    background-color: green;
+}
+.player{
+    background-color: grey;
+}
